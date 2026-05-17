@@ -10,7 +10,7 @@ setInterval(() => {
 
     slides.style.transform = `translateX(-${index * 20}%)`;
 
-    // khi tới ảnh clone
+
     if(index === 4){
 
         setTimeout(() => {
