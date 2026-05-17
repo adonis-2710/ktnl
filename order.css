@@ -1,0 +1,134 @@
+.order-section{
+    width: 90%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.order-title-small{
+    text-align: center;
+    color: #8b1e3f;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.order-title{
+    text-align: center;
+    font-size: 55px;
+    color: #2f3767;
+    margin-bottom: 20px;
+}
+
+.order-desc{
+    text-align: center;
+    color: #666;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+
+.order-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.order-left{
+    width: 45%;
+}
+
+.order-left img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.order-right{
+    width: 55%;
+
+    background: white;
+
+    padding: 50px;
+
+    border-radius: 30px;
+
+    border: 2px solid #eaded6;
+}
+
+.input-group{
+    margin-bottom: 25px;
+}
+
+.input-title{
+    margin-bottom: 10px;
+    color: #2f3767;
+    font-size: 18px;
+}
+
+.input-group input{
+    width: 100%;
+    height: 55px;
+
+    border: 2px solid #eaded6;
+
+    border-radius: 15px;
+
+    padding: 0 20px;
+
+    outline: none;
+
+    font-size: 16px;
+}
+
+.input-group select{
+    width: 100%;
+    height: 55px;
+
+    border: 2px solid #eaded6;
+
+    border-radius: 15px;
+
+    padding: 0 20px;
+
+    outline: none;
+
+    font-size: 16px;
+}
+
+.input-group textarea{
+    width: 100%;
+    height: 140px;
+
+    border: 2px solid #eaded6;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    outline: none;
+
+    resize: none;
+
+    font-size: 16px;
+}
+
+.submit-btn{
+    width: 220px;
+    height: 55px;
+
+    background: #8b1e3f;
+    color: white;
+
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.submit-btn:hover{
+    background: #2f3767;
+}
